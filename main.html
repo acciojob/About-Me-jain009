@@ -1,1 +1,59 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .profile-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+        .profile-card img {
+            width: 120px;
+            border-radius: 50%;
+        }
+        .progress-bar {
+            background-color: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        .progress {
+            height: 10px;
+            background-color: #4caf50;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture">
+        <h1 id="Name">John Doe</h1>
+        <p id="Email"><i class="fas fa-envelope"></i> johndoe@example.com</p>
+        <h2 id="Profile">Profile</h2>
+        <p>Full Stack Developer</p>
+        <h2 id="About me">About Me</h2>
+        <p>Passionate software developer with expertise in building scalable web applications and a keen eye for UI/UX design.</p>
+        <h2 id="Skills">Skills</h2>
+        <p>JavaScript</p>
+        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+        <p>React</p>
+        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+        <p>Node.js</p>
+        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+        <p>CSS</p>
+        <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+    </div>
+</body>
+</html>
